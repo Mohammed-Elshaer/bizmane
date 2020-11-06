@@ -1,0 +1,741 @@
+// <!-- =========================
+// //         start pricing
+// // ========================= -->
+
+.pricing{
+    // padding: 40px 0 0;
+   .per{
+       margin-top: -20px;
+       z-index: 1020;
+       .icon{
+        background-color: #fff;
+        color: $projectcolor;
+        width: 60PX;
+        height: 60PX;
+        border-radius: 50%;
+        margin: 10px auto;
+        line-height: 60px;
+
+    }
+   }
+    text-align: center;
+    .pric{
+      background-color:$maincolor;
+      color: #fff;
+      h5, p{
+        margin: 10px;
+
+      }
+
+    }
+    .pric-1{
+      background-color:$projectcolor;
+      color: #fff;
+      h5, p{
+        margin: 10px;
+      }
+    }
+    i{
+      font-size: $font-size + 20;
+      margin: 10px;
+    }
+}
+//     <!-- =========================
+//         end pricing
+// ========================= -->
+
+// <!-- =========================
+// //         start welcome
+// // ========================= -->
+
+.welc{
+    padding: 80px 0 80px ;
+    .ovarlay{
+        @include ovarlay;
+    }
+    h2{
+        text-align: center;
+        font-weight: bolder;
+        font-size: $font-size + 30;
+        margin-bottom: 80px;
+        span{
+            color:$projectcolor;
+        }
+    }
+    h3, p {
+        width: 100%;
+        color:$projectcolor;
+
+   }
+    h3{
+        font-weight: bold;
+        
+    }
+    p{
+        color: $gray-600;
+    }
+    // iframe{
+    //     width: 100%;
+    // }
+
+    // i{
+    //     margin-left: 5px;
+    //     transition: .5s;
+    //     &:hover {
+    //         margin-left: 20px;
+    //     }
+    // }
+}
+
+//  <!-- =========================
+//         end welcom
+//  ========================= -->
+
+// <!-- =========================
+//       start card
+// ========================= -->
+.card{
+    padding: 80px 0 80px ;
+    text-align: center;
+    background-color: $gray-300;
+    
+   .pric{
+        color: $maincolor;
+        background-color: #fff;
+        border: 1px solid #eee;
+        padding: 10px;
+        &:hover{
+            background-color: $projectcolor;
+            color: #fff;
+        }
+        
+        span{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $maincolor;
+            color: #fff;
+            line-height: 50px;
+        }
+       h5, p{
+          margin: 10px;
+        }
+        h5{
+            font-weight: bold;
+        }
+      }
+      .pric-1{
+        color: #fff;
+        background-color: $projectcolor;
+        border: 1px solid #eee;
+        padding: 10px;
+        span{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $maincolor;
+            color: #fff;
+            line-height: 50px;
+        }
+                h5, p{
+          margin: 10px;
+        }
+        h5{
+            font-weight: bold;
+        }
+    }
+}
+
+// <!-- =========================
+//       end card
+// ========================= -->
+
+// <!-- =========================
+//        start go
+// ========================= -->
+
+.go{
+height: auto;
+text-align: center;
+background-color:$gray-800;
+color: #fff;
+.btn-3{
+    margin:22px auto;
+}
+}
+
+
+// <!-- =========================
+//        end go
+// ========================= -->
+
+// <!-- =========================
+//        start team
+// ========================= -->
+.team{
+    text-align: center;
+    padding: 80px 0 80px 0;
+   
+    h2{
+        text-transform: uppercase;
+        span{
+           color: $projectcolor;
+        }
+    }
+    .tem{
+       &:hover .img-holder .ovarlay{
+            height: 100%;
+        }
+        &:hover .img-holder ul{
+            left: 50%;
+            opacity: 1;
+        }
+        
+        .img-holder{
+            overflow: hidden;
+            padding-top: 5px;
+           
+            background-color: $projectcolor;
+            position: relative;
+                .ovarlay {
+                   @include ovarlay;
+                   background-color: rgba(255, 255, 255, 0.5);
+                   height: 0;
+                      transition: .7s;
+
+                
+            }
+            ul{
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 100%;
+                width: 100%;
+                transform: translate(-50%, -50%);
+                transition: .5s;
+                opacity: 0;
+                z-index: 1;
+
+                li{
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: $projectcolor;
+                    line-height: 20px;
+                    font-size: .75rem;
+                    text-align: center;
+                    a{
+                        color: #fff;
+
+                    }
+                }
+            }
+            h5{
+                text-transform: uppercase;
+                background-color: $maincolor;
+                color: #fff;
+               top: -10px;
+               position: relative;
+               display: inline-block;
+            }
+            p{
+                text-transform: uppercase;
+                color: #fff;
+
+            }
+        }
+    }
+   
+
+}
+// <!-- =========================
+//        end team
+// ========================= --> 
+
+// <!-- =========================
+//        start gellry
+//  ========================= -->
+
+.gellry{
+    padding: 80px 0 80px 0;
+    background-color: $gray-300;
+   text-align: center;
+   h2{
+    text-transform: uppercase;
+    span{
+       color: $projectcolor;
+    }
+}
+    .row{
+        text-align: center;
+
+        .ovarlay {
+            @include ovarlay;
+            background-color: rgba(255, 255, 255, 0.5);
+            &:hover{
+                @include ovarlay;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+     }
+        .col-sm-4{
+                padding:0 !important;
+                position: relative;
+                &:hover .pro{
+                    opacity: 1;
+                    color: #fff;
+                    padding: 10px;
+                }
+                .pro{
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                    text-align: left;
+                    width: 75%;
+                    height: 75%;
+                    overflow: hidden;
+                    transform: translate(15%, 15%);
+                    transition: .5s;
+                    opacity: 0;
+                    z-index: 1;
+                    border: 3px solid #fff;
+                    border-bottom:3px solid $projectcolor ;
+                    p{
+                        font-size: 12px;
+                        margin-top: -10px;
+                    }
+                    h5{
+                        text-transform: uppercase;
+                    }
+                }
+         }
+         img{
+            width: 100%;
+        }
+    }
+    
+}
+
+// <!-- =========================
+//        end gellry
+//  ========================= -->
+
+.tostmonis{
+    padding: 80px 0 80px 0;
+    background-color:$gray-800;
+    h2{
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+.saying{
+   .call{
+        background-color:#fff;
+        font-size: 1rem;
+        border-top:3px solid $projectcolor; 
+        border-bottom:3px solid $projectcolor;
+        width: 100%;
+        .lead{
+            margin-left: 20px;
+            font-size: 14px;
+        } 
+        i{
+            color: $projectcolor;
+            font-size: 30px;
+            margin-top: 5px;
+        }
+ }
+    .media{
+        color: #fff;
+        position: relative;
+       
+        }
+  
+        img{
+            border:2px solid $projectcolor;
+            border-radius: 50%;
+            position: relative;
+        }
+        .media::after{
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 7px 19px 3px 0px;
+            border-color: $projectcolor transparent transparent;
+            position: absolute;
+            //  bottom: -28px;
+            left: 15px;
+        
+        }
+    }
+}
+
+
+
+// <!-- =========================
+//        start planing
+// ========================= -->
+
+.planing{
+    padding: 80px 0 80px 0;
+    background-color: $gray-300;
+    text-align: center;
+    h2{
+        text-transform: uppercase;
+        span{
+           color: $projectcolor;
+        }
+    }
+    .box-1, .box-2{
+        background-color: #fff;
+        padding: 20px 0 20px;
+        border-top: 3px solid $maincolor;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        i{
+            margin-right:5px ;
+        }
+        h3{
+            font-size:18px; 
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 12px;
+            text-transform: capitalize;
+        }
+        h5{
+            color: #fff;
+            background-color: $maincolor;
+            font-size: 35px;
+        }
+        .list{
+            margin-top: 15px;
+            border-bottom: 2px solid $gray-300;
+            li{
+                margin-top: 15px;
+            }
+            
+        }
+        .btn-2{
+            background-color: $maincolor !important;
+            &:hover{
+                color: #fff;
+                background-color: $projectcolor !important;
+            }
+        }
+    }
+    .box-2{
+        h5{
+            color: #fff;
+            background-color:$projectcolor;
+        }
+        .btn-2{
+            background-color: $projectcolor !important;
+            &:hover{
+                color: #fff;
+                background-color: $maincolor !important;
+            }
+        }
+    }
+    }
+
+// <!-- =========================
+//        end planning
+// ========================= -->
+
+// ==================
+//  start progress
+// ==================
+
+.our-skills{
+    background: url('../../image/slider-bg3.jpg');
+    // min-height: 1000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-size:cover ;
+    // height: 100vh;
+    // height: 800px;
+    position: relative;
+    // overflow: hidden;
+    color: #fff;
+    padding: 40px 0 40px;
+    .ovarlay{
+        @include ovarlay;
+        z-index:0;
+    }
+    .skills{
+        // z-index: 2;
+        .lead{
+            text-transform: capitalize;
+            font-size: 12px;
+            h2{
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+        i{
+            background-color: $projectcolor; 
+            width: 20px; 
+            height: 20px;
+            line-height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 12px;
+            margin-right: 8px;
+            text-transform: capitalize;
+              }
+              h6{
+                  margin-bottom: 8px;
+                  text-transform: uppercase;
+                  font-size: 12px;
+              }
+    }
+    .prog{
+        .progress-bar{
+            z-index: 2;
+            background-color: $projectcolor !important;
+            position: relative;
+        }
+        .ovarlay {
+            @include ovarlay;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            &:hover{
+                @include ovarlay;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+     }
+    }
+}
+
+    
+
+// ==================
+//  end progress
+// ==================
+
+// ==================
+//  start footer
+// ==================
+
+.footer{
+    padding: 40px 0 40px;
+    background-color: $gray-800;
+    color: #fff;
+    h3{
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-bottom: 1px dashed $projectcolor;
+    }
+    p{
+        font-size: 12px;
+
+        i{
+            color: $projectcolor;
+            margin-right: 8px;
+        }
+    }
+    h2{
+        font-size: 25px;
+        text-transform: uppercase;
+
+        span{
+            color: $projectcolor;
+        }
+        
+    }
+    .form-control{
+        border-radius: 20px;
+        }
+        .input-group-text{
+            border-top-right-radius: 20px !important;
+            border-bottom-right-radius: 20px !important;
+            background-color: $projectcolor;
+            color: #fff;
+   }
+   
+}
+
+// / ==================
+// //  end footer
+// // ==================
+
+.copy-right{
+    background-color: $gray-800;
+    padding: 20px 0 20px;
+    color: #fff;
+    border-top: 1px solid $gray-600;
+    .copyright{
+        i{
+            margin-right: 5px;
+            margin-left: 5px;
+            color: $projectcolor;
+        }
+        span{
+            color: #fff;
+            text-transform: capitalize;
+        }
+    }
+    .social{
+        a{
+            color: #fff;
+            margin-right: 3px;
+            background-color: $projectcolor;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 10px;
+        }
+    }
+}
+
+// <!-- ===================
+//  start resergin
+// =================== -->
+
+.map{
+    padding: 80px 0 80px 0;
+    background-color: $gray-300;
+    text-align: center;
+    .google-map{
+        iframe{
+            z-index: 4;
+        }
+        position: relative;
+    }
+    
+    h2{
+        font-size: 25px;
+        text-transform: uppercase;
+
+        span{
+            color: $projectcolor;
+        }
+}
+.form-control{
+    border-left-style: none;
+    border-radius: 0;
+margin-bottom: 5px;
+
+}
+.input-group-text{
+    background-color: #fff;
+    color: $projectcolor;
+    border-right-style: none;
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+.btn-2{
+    border-radius: 0;
+    i{
+        margin-right: 5px;
+    }
+}
+}
+// <!-- ===================
+//  end resergin
+// =================== -->
+.post{
+    padding: 80px 0 80px 0;
+    background-color: $gray-300;
+   
+    h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center;
+
+        span{
+            color: $projectcolor;
+        }
+}
+.cart{
+    background-color: #fff;
+    padding: 10px;
+    &:hover .pro {
+        left: 50%;
+        opacity: 1;
+    }
+    
+   .pro{
+    //    opacity: 0;
+    margin-top: -120px;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    opacity: 0;
+    z-index: 1;
+    .ovarlay{
+        @include ovarlay;
+    }
+    i{
+        background-color: $projectcolor;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 50%;
+        color: #fff;
+    }
+   }
+        
+    img{
+        position: relative;
+        
+    }
+    span{
+        position: absolute;
+    color: #fff;
+    background-color: #16a085;
+    transition-duration: 1s;
+    padding: 2px;
+    left: 25px;
+    top: 10px;
+    border-radius: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 21px;
+    i{
+        margin-right: 2px;
+    }
+    }
+    .card-text{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .lead{
+        font-size: 12px;
+        color: gray;
+    }
+    h6{
+        display: inline-block;
+        i{
+            color: $projectcolor;
+            margin-right: 5px;
+        }
+    }
+    .btn-2{
+        background-color: transparent;
+        color: $projectcolor;
+        i{
+            transition: .5s;
+
+            &:hover {
+                margin-left: 20px;
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,38 @@
+.slider {
+  position: relative;
+}
+
+.slider .carousel-inner .ovarlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slider .prev {
+  width: 40px;
+  font-size: 10px;
+}
+
+.slider .prev span {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: .9;
+}
+
+.slider .carousel-inner {
+  color: #fff;
+  text-align-last: left;
+}
+
+.slider .carousel-inner h1 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+}
+
+.slider .carousel-inner .lead {
+  font-size: .90rem;
+  text-transform: capitalize;
+}

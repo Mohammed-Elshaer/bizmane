@@ -1,0 +1,50 @@
+.slider{
+    position: relative;
+   
+    .carousel-inner .ovarlay{
+        @include ovarlay
+    }
+    
+    .prev{
+        // z-index: 3;
+        width: 40px;  
+        font-size: 10px;
+    
+          span{
+        background-color: rgba($maincolor, .6);
+        opacity: .9;
+
+        }
+    }
+    .carousel-inner{
+        color: #fff;
+        // z-index: 3;
+        text-align-last: left;
+        h1{
+            font-size: 2.25rem;
+            text-transform: uppercase;
+        }
+        .lead{
+            font-size: .90rem;
+            text-transform: capitalize;
+        }
+       
+    }
+}
+
+// .slider .carousel-item{
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//     .carousel-one{
+//         background-image: url('../../image/slider-bg1.jpg');
+//          }
+//     .carousel-tow{
+//         background-image: url('../../image/slider-bg2.jpg');
+//          }
+//     .carousel-three{
+//         background-image: url('../../image/slider-bg3.jpg');
+//          }
+// }
+

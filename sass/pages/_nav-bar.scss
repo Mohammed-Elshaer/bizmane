@@ -1,0 +1,36 @@
+  .navbar-brand {
+    color: #fff;
+    // font-size: $fontS + 5;
+    text-transform: uppercase;
+    transition: 0.8s;
+    &:hover{
+      color: $projectcolor !important;
+    }
+    span {
+      color: $projectcolor;
+      font-size: $fontS + 10;
+    }
+  }
+
+  .nav-link {
+    color: #fff !important;
+    // font-size: $fontS;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    transition: 0.8s;
+  }
+  .active {
+    background-color: $projectcolor;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: $projectcolor;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff !important;
+   
+  }
+  

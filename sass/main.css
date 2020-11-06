@@ -1,0 +1,409 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 14px;
+}
+
+html {
+  direction: ltr;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html ol,
+html ul {
+  list-style: none;
+  padding: right 0;
+  padding-left: 0;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span,
+a,
+img {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.navbar-brand:hover {
+  color: #16a085 !important;
+}
+
+.navbar-brand span {
+  color: #16a085;
+  font-size: 28px;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-transform: capitalize;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.active {
+  background-color: #16a085;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.nav-link:hover {
+  background-color: #16a085;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #fff !important;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .carousel-inner .ovarlay {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slider .prev {
+  width: 40px;
+  font-size: 10px;
+}
+
+.slider .prev span {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: .9;
+}
+
+.slider .carousel-inner {
+  color: #fff;
+  text-align-last: left;
+}
+
+.slider .carousel-inner h1 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+}
+
+.slider .carousel-inner .lead {
+  font-size: .90rem;
+  text-transform: capitalize;
+}
+
+.btn {
+  background-color: #16a085;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #fff;
+  padding: 10px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.btn-1 {
+  background-color: transparent;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  text-transform: uppercase;
+}
+
+.btn-1:hover {
+  background-color: #16a085;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-2 {
+  background-color: #16a085;
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 30px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  text-transform: uppercase;
+}
+
+.btn-2:hover {
+  background-color: transparent;
+  color: #16a085;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-3 {
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 30px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+}
+
+.btn-3:hover {
+  background-color: transparent;
+  color: #16a085;
+  border: none;
+  text-decoration: none;
+  border: 1px solid #16a085;
+}
+
+.pricing {
+  text-align: center;
+}
+
+.pricing .per {
+  margin-top: -20px;
+  z-index: 1020;
+}
+
+.pricing .per .icon {
+  background-color: #fff;
+  color: #16a085;
+  width: 60PX;
+  height: 60PX;
+  border-radius: 50%;
+  margin: 10px auto;
+  line-height: 60px;
+}
+
+.pricing .pric {
+  background-color: #000;
+  color: #fff;
+}
+
+.pricing .pric h5, .pricing .pric p {
+  margin: 10px;
+}
+
+.pricing .pric-1 {
+  background-color: #16a085;
+  color: #fff;
+}
+
+.pricing .pric-1 h5, .pricing .pric-1 p {
+  margin: 10px;
+}
+
+.pricing i {
+  font-size: 34px;
+  margin: 10px;
+}
+
+.welc {
+  text-align: start;
+  margin-bottom: 40px;
+}
+
+.welc h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 44px;
+}
+
+.welc h2 span {
+  color: #16a085;
+}
+
+.welc h3, .welc p {
+  width: 100%;
+}
+
+.welc h3 {
+  font-weight: bold;
+}
+
+.welc p {
+  color: #6c757d;
+}
+
+.welc iframe {
+  width: 100%;
+}
+
+.welc i {
+  margin-left: 5px;
+}
+
+.card {
+  padding: 80px 0 80px 0;
+  text-align: center;
+  background-color: #dee2e6;
+}
+
+.card .pric {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.card .pric:hover {
+  background-color: #16a085;
+}
+
+.card .pric span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  line-height: 50px;
+}
+
+.card .pric h5, .card .pric p {
+  margin: 10px;
+}
+
+.card .pric h5 {
+  font-weight: bold;
+}
+
+.card .pric-1 {
+  color: #fff;
+  background-color: #16a085;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.card .pric-1 span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  line-height: 50px;
+}
+
+.card .pric-1 h5, .card .pric-1 p {
+  margin: 10px;
+}
+
+.card .pric-1 h5 {
+  font-weight: bold;
+}
+
+.go {
+  height: auto;
+  text-align: center;
+  background-color: #212529;
+  color: #fff;
+}
+
+.go .btn-3 {
+  margin: 22px auto;
+}
+
+.team {
+  text-align: center;
+  padding: 80px 0 80px 0;
+}
+
+.team h2 {
+  text-transform: uppercase;
+}
+
+.team h2 span {
+  color: #16a085;
+}
+
+.team .tem .img-holder {
+  padding-top: 5px;
+  background-color: #16a085;
+  position: relative;
+}
+
+.team .tem .img-holder .ovarlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.team .tem .img-holder ul {
+  position: absolute;
+  top: 0;
+}
+
+.team .tem .img-holder h5 {
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  top: -10px;
+  position: relative;
+  display: inline-block;
+}
+
+.team .tem .img-holder p {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

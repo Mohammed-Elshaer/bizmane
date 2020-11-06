@@ -1,0 +1,54 @@
+//========================================//
+// Layouts //
+//========================================//
+
+// Document
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: $font-size;
+}
+html {
+  direction: $mnDirection;
+  box-sizing: border-box;
+  ol,
+  ul {
+    list-style: none;
+    padding: right 0;
+    padding-left: 0;
+  }
+}
+
+body {
+  box-sizing: border-box;
+ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+span,
+a,
+img {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.row {
+  overflow: hidden;
+}
+.clearfix {
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 20px;
+}
